@@ -1,0 +1,10 @@
+.filmList {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+  list-style: none;
+}
+
+.imageFilm {
+  width: 100%;
+}
