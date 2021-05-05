@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const baseService = (mapping) => axios.create({
-    baseURL: `https://api.themoviedb.org/3/${mapping}`
+const baseService = () => axios.create({
+    baseURL: `https://api.themoviedb.org/3/`
 })
 
 export default baseService;

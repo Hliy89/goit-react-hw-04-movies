@@ -14,13 +14,13 @@ class OneFilm extends React.Component {
     try {
       const { filmId } = this.props;
 
-      const response = await axios.get(
+      const { data } = await axios.get(
         `https://api.themoviedb.org/3/movie/${filmId}?api_key=923c2cf88ec4338da74c768a045101f0&language=en-US`,
       );
 
       this.setState({
-        filmsDetails: response.data,
-        genres: response.data.genres,
+        filmsDetails: data,
+        genres: data.genres,
       });
     } catch (error) {
       console.log(error);
