@@ -1,0 +1,1 @@
+{"version":3,"sources":["App/components/NotFound/NotFound.jsx"],"names":["NotFound"],"mappings":"yIAAA,uBAMeA,UAJE,WACb,OAAS","file":"static/js/9.6181e786.chunk.js","sourcesContent":["import React from 'react';\r\n\r\nconst NotFound = () => {\r\n    return ( <h1>404 - page not found</h1> );\r\n}\r\n \r\nexport default NotFound;"],"sourceRoot":""}

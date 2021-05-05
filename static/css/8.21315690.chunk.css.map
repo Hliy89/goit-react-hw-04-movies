@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/client/movie/components/OneFilm/OneFilm.module.css"],"names":[],"mappings":"AAAA,0BACE,WACF,CAEA,yBACE,oBAAa,CAAb,YACF","file":"8.21315690.chunk.css","sourcesContent":[".imageFilm {\r\n  width: 250px;\r\n}\r\n\r\n.oneMovie {\r\n  display: flex;\r\n}\r\n"]}
